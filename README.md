@@ -44,4 +44,4 @@ A fast, modern pizza ordering dashboard built with React, Vite, Redux Toolkit, R
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.
+git clone https://github.com/Vaggelis-Agapiou/fast-react-pizza.
