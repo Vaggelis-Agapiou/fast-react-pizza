@@ -1,4 +1,5 @@
 # Fast React Pizza
+[![License: MIT](https://img.shields.io/github/license/Vaggelis-Agapiou/fast-react-pizza)](https://opensource.org/licenses/MIT)
 
 A fast, modern pizza ordering dashboard built with React, Vite, Redux Toolkit, React Router, and Tailwind CSS. Users can browse the pizza menu, manage a cart, place orders, search orders by number, and track delivery status.
 
