@@ -60,6 +60,6 @@ git clone https://github.com/Vaggelis-Agapiou/fast-react-pizza
 
 ## Deployment
 
-The app is live at [fast-react-pizza-ibof8eiyi-vaggelis-agapiou-s-projects.vercel.app](https://fast-react-pizza-nine-lac.vercel.app)
+The app is live at [fast-react-pizza-nine-lac.vercel.app](https://fast-react-pizza-nine-lac.vercel.app)
 
 Deployed via [ Vercel ](https://vercel.com). Every push to `main` automatically triggers a new deployment.
