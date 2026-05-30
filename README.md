@@ -44,4 +44,22 @@ A fast, modern pizza ordering dashboard built with React, Vite, Redux Toolkit, R
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/Vaggelis-Agapiou/fast-react-pizza.
+git clone https://github.com/Vaggelis-Agapiou/fast-react-pizza
+```
+
+2. Install dependencies:
+```bash
+    npm install
+```
+
+3. Start the development server:
+```bash 
+    npm run dev
+```
+---
+
+## Deployment
+
+The app is live at [fast-react-pizza-ibof8eiyi-vaggelis-agapiou-s-projects.vercel.app](https://fast-react-pizza-nine-lac.vercel.app)
+
+Deployed via [ Vercel ](https://vercel.com). Every push to `main` automatically triggers a new deployment.
