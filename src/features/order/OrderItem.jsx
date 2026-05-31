@@ -1,7 +1,7 @@
 import { formatCurrency } from "../../utils/helpers";
 
 function OrderItem({ item, isLoadingIngredients, ingredients }) {
-  const { quantity, name, totalPrice, id } = item;
+  const { quantity, name, totalPrice } = item;
 
   return (
     <li className="space-y-1 py-3" >
