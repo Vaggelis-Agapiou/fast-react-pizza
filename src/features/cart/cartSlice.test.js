@@ -1,5 +1,5 @@
 import { test, expect } from "vitest";
-import cartReducer, { addItem, increaseItemQuantity } from "./cartSlice";
+import cartReducer, { addItem, clearCart, increaseItemQuantity } from "./cartSlice";
  
 
 const mockPizza = {
@@ -23,4 +23,11 @@ test("increaseItemQuantity updates quantity & totalPrice", () => {
 
     expect(newState.cart[0].quantity).toBe(2);
     expect(newState.cart[0].totalPrice).toBe(24);
-})
+});
+
+test("clearCart empties cart", () => {
+    const initialState =  {cart: [mockPizza]};
+    const newState = cartReducer(initialState, clearCart());
+
+    expect(newState.cart).toHaveLength(0);
+});
